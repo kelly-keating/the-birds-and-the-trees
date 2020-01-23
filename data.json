@@ -1,31 +1,106 @@
 {
     "birds": [
-        { "id": 9013, "name": "tui", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9000, "name": "kahu", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9001, "name": "hihi", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9002, "name": "roa", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9003, "name": "kotare", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9004, "name": "piwakawaka", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9005, "name": "kakapo", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9006, "name": "ruru", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9007, "name": "kokako", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9008, "name": "miromiro", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9009, "name": "kea", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9010, "name": "weka", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9011, "name": "kereru", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9012, "name": "karearea", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9013, "name": "tieke", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" },
-        { "id": 9014, "name": "pukeko", "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" }
+        { 
+            "id": 9013, "name": "tūī", "species": "Prosthemadera novaeseelandiae", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9000, "name": "kahu", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9001, "name": "hihi", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9002, "name": "roa", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9003, "name": "kotare", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9004, "name": "piwakawaka", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9005, "name": "kakapo", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9006, "name": "ruru", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9007, "name": "kokako", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9008, "name": "miromiro", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9009, "name": "kea", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9010, "name": "weka", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9011, "name": "kereru", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9012, "name": "karearea", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9013, "name": "tieke", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        },
+        { 
+            "id": 9014, "name": "pukeko", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png" 
+        }
     ],
     "trees": [
-        { "id": 9000, "name": "harakeke", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9001, "name": "horoeka", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9002, "name": "nikau", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9003, "name": "pohutukawa", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9004, "name": "matai", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9005, "name": "kahikatea", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9006, "name": "kowhai", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9007, "name": "mamaku", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" },
-        { "id": 9008, "name": "kauri", "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" }
+        { 
+            "id": 9000, "name": "harakeke", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9001, "name": "horoeka", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9002, "name": "nikau", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9003, "name": "pohutukawa", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9004, "name": "matai", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9005, "name": "kahikatea", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9006, "name": "kowhai", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9007, "name": "mamaku", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        },
+        { 
+            "id": 9008, "name": "kauri", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png" 
+        }
     ]
 }
