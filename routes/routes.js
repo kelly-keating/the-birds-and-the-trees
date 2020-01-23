@@ -11,15 +11,15 @@ router.get('/', (req,res) => {
 
 router.get('/:type', (req, res) => {
     let stuff = data[req.params.type]
-
     stuff = stuff.map(obj => ({...obj, type: req.params.type}))
-    
+
     res.render('list', {type: req.params.type, thing: stuff})
 })
 
 router.get('/:type/:id', (req, res) => {
     const theOne = data[req.params.type].find(obj => obj.id == req.params.id)
-    res.render('profile', theOne)
+
+    res.render('profile', {theOne, type: req.params.type})
 })
 
 
