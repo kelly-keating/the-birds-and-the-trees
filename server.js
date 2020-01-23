@@ -1,9 +1,9 @@
 const express = require('express')
 
+const routes = require('./routes/routes')
+
 const server = express()
 
-server.get('/', (req, res) => {
-    res.send(':)')
-})
+server.use('/', routes)
 
 module.exports = server
