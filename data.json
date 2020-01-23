@@ -1,30 +1,215 @@
 {
     "birds": [
-        { "id": 9000, "name": "kahu" },
-        { "id": 9001, "name": "hihi" },
-        { "id": 9002, "name": "roa" },
-        { "id": 9003, "name": "kotare" },
-        { "id": 9004, "name": "piwakawaka" },
-        { "id": 9005, "name": "kakapo" },
-        { "id": 9006, "name": "ruru" },
-        { "id": 9007, "name": "kokako" },
-        { "id": 9008, "name": "miromiro" },
-        { "id": 9009, "name": "kea" },
-        { "id": 9010, "name": "weka" },
-        { "id": 9011, "name": "kereru" },
-        { "id": 9012, "name": "karearea" },
-        { "id": 9013, "name": "tieke" },
-        { "id": 9014, "name": "pukeko" }
+        { 
+            "id": 9000, "name": "tūī", "species": "prosthemadera novaeseelandiae", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "http://nzbirdsonline.org.nz/sites/all/files/1200543Tui%20x2800.JPG",
+            "descrpition": [
+                "Tūī are boisterous, medium-sized, common and widespread bird of forest and suburbia – unless you live in Canterbury. They look black from a distance, but in good light tūī have a blue, green and bronze iridescent sheen, and distinctive white throat tufts (poi). They are usually very vocal, with a complicated mix of tuneful notes interspersed with coughs, grunts and wheezes. In flight, their bodies slant with the head higher than the tail, and their noisy whirring flight is interspersed with short glides.",
+                "It is one of the largest species in the diverse Australasian honeyeater family, and one of two living species of that family found in New Zealand, the other being the New Zealand bellbird (known as korimako and makomako). The tūī has a wide distribution in the archipelago, ranging from the subtropical Kermadec Islands to the sub-Antarctic Auckland Islands, as well as the main islands.",
+                "Nectar is the normal diet but fruit and insects are frequently eaten, and pollen and seeds more occasionally. Particularly popular is the New Zealand flax (harakeke), whose nectar sometimes ferments, resulting in the tūī flying in a fashion that suggests that they might be drunk. They are the main pollinators of harakeke, kowhai, kaka beak and some other plants. Note that the flowers of the three plants mentioned are similar in shape to the tūī's beak—a vivid example of mutualistic coevolution.",
+                "Tūī have complex variety of songs and calls, much like parrots. They also resemble parrots in their ability to clearly imitate human speech, and were trained by Māori to replicate complex speech. Tūī are also known for their noisy, unusual call, different for each individual, that combine bellbird-like notes with clicks, cackles, timber-like creaks and groans, and wheezing sounds. Songbirds have two voice boxes and this is what enables them to perform such a myriad of vocalisations.",
+                "Some of the wide range of tūī sounds are beyond the human register. Watching a tūī sing, one can observe gaps in the sound when the beak is agape and throat tufts throbbing. However, ongoing research has so far failed to detect ultrasound within tūī vocalisations.[citation needed] Tūī will also sing at night, especially around the full moon period."
+            ] 
+        },
+        { 
+            "id": 9001, "name": "kāhu", "alias": "swamp harrier", "species": "circus approximans",
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "https://www.wingspan.co.nz/images/australasian-nz-harrier-1000x373.jpg",
+            "description": [
+                "The swamp harrier is a large, tawny-brown bird of prey that occurs throughout New Zealand. It is an opportunistic hunter that searches for food by slowly quartering the ground with its large wings held in a distinctive shallow V-shape. Adapted to hunt in open habitats, its numbers have benefitted from widespread forest clearance and the development of agriculture. Although carrion is a major component of the harrier’s diet, it also actively hunts live prey such as small birds, mammals and insects. Capable dispersers, kāhu from New Zealand visit islands as far north as the Kermadec Islands and as far south as Campbell Island. Known for their dramatic ‘sky-dancing’ courtship display the swamp harrier is the largest of the 16 species of harriers found worldwide.",
+                "First winter harriers have brown eyes, dark brown plumage with an obvious white nape patch. As the birds get older the eyes and the plumage gets paler. Very old birds can appear almost grey white. Females are larger than the males.",
+                "Kāhu have been historically used for falconry in New Zealand; quarry is usually pukeko and young rabbits. Wild kāhu however have been known to kill young kārearea and have also been heavily blamed and persecuted for killing chickens, pheasants and ducklings.",
+                "The hawk appears in Māori mythology in the story of Maui, where we are told that the colour of its plumage is the result of it having been scorched by the fire of Mahuika when that being tried to destroy Maui.",
+                "Everywhere in the world raptors are in decline. It is good to know that Kāhu, the harrier, is one raptor who is holding his own."
+            ]
+
+        },
+        { 
+            "id": 9002, "name": "hihi", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9003, "name": "roa", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9004, "name": "kotare", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9005, "name": "piwakawaka", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9006, "name": "kakapo", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9007, "name": "ruru", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9008, "name": "kokako", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9009, "name": "miromiro", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9010, "name": "kea", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9011, "name": "weka", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9012, "name": "kereru", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9013, "name": "karearea", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9014, "name": "tieke", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9015, "name": "pukeko", 
+            "icon": "https://image.flaticon.com/icons/png/512/194/194619.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        }
     ],
     "trees": [
-        { "id": 9000, "name": "harakeke" },
-        { "id": 9001, "name": "horoeka" },
-        { "id": 9002, "name": "nikau" },
-        { "id": 9003, "name": "pohutukawa" },
-        { "id": 9004, "name": "matai" },
-        { "id": 9005, "name": "kahikatea" },
-        { "id": 9006, "name": "kowhai" },
-        { "id": 9007, "name": "mamaku" },
-        { "id": 9008, "name": "kauri" }
+        { 
+            "id": 9000, "name": "harakeke", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9001, "name": "horoeka", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9002, "name": "nikau", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9003, "name": "pohutukawa", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9004, "name": "matai", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9005, "name": "kahikatea", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9006, "name": "kowhai", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9007, "name": "mamaku", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        },
+        { 
+            "id": 9008, "name": "kauri", 
+            "icon": "https://images.vexels.com/media/users/3/127903/isolated/preview/c6916ceee241dfb71115213d2a74624e-green-square-tree-icon-by-vexels.png",
+            "img_url": "",
+            "description": [
+
+            ] 
+        }
     ]
 }

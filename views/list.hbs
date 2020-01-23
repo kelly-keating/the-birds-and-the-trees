@@ -1,5 +1,18 @@
-{{#each thing}}
- <p><a href='/{{type}}/{{id}}'>{{name}}</a></p>
-{{/each}}
+<section class="header">
+    <h1>{{type}}</h1>
+</section>
 
-<a href="/">Home</a>
+<section>
+    {{#each thing}}
+    <div class='icon-tile'>
+        <a href='/{{type}}/{{id}}'>
+            <img class="icon" src={{icon}} />
+            <p>{{name}}</p>
+        </a>
+    </div>
+    {{/each}}
+</section>
+
+<div>
+    <a href="/">Home</a>
+</div>

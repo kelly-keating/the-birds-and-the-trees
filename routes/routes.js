@@ -1,6 +1,7 @@
 const express = require('express')
 
 const data = require('../data.json')
+const { capitalise } = require('../utils')
 
 const router = express.Router()
 
@@ -11,9 +12,11 @@ router.get('/', (req,res) => {
 
 router.get('/:type', (req, res) => {
     let stuff = data[req.params.type]
-    stuff = stuff.map(obj => ({...obj, type: req.params.type}))
+    stuff = stuff.map(obj => ({...obj, name: capitalise(obj.name), type: req.params.type}))
 
-    res.render('list', {type: req.params.type, thing: stuff})
+    let type = capitalise(req.params.type)
+
+    res.render('list', {type, thing: stuff})
 })
 
 router.get('/:type/:id', (req, res) => {
