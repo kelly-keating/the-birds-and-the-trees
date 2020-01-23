@@ -6,3 +6,11 @@ body {
   background-color: #F4F2F5;
   text-align: center;
 }
+
+.icon-tile {
+  display: inline-block;
+}
+
+.icon {
+  height: 150px;
+}
