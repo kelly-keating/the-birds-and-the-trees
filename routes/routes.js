@@ -10,8 +10,11 @@ router.get('/', (req,res) => {
 })
 
 router.get('/:type', (req, res) => {
-    const stuff = data[req.params.type]
-    res.render('list', {thing: stuff})
+    let stuff = data[req.params.type]
+
+    stuff = stuff.map(obj => ({...obj, type: req.params.type}))
+    
+    res.render('list', {type: req.params.type, thing: stuff})
 })
 
 router.get('/:type/:id', (req, res) => {
