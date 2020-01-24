@@ -1,5 +1,12 @@
 {{#with theOne}}
     <h1>{{name}}</h1>
+    <h4>
+        {{#if alias}}{{alias}} - {{/if}}<i>{{species}}</i>
+    </h4>
+    <img src={{img_url}} />
+    {{#each description}}
+        <p>{{this}}</p>
+    {{/each}}
 {{/with}}
 
 <a href="/{{type}}">Back</a>
